@@ -22,7 +22,7 @@ class fib_num():
         self.parser.add_argument(
             'number', help="Give a number on which you want to calculate the fibonacci")
         self.parser.add_argument(
-            '-f', '--full', help="some test", action='store_true')
+            '-f', '--full', help="Show The Entire Fibonacci Sequence", action='store_true')
         self.args = self.parser.parse_args()
         return [int(self.args.number), bool(self.args.full)]
 
