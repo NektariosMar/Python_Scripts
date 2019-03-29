@@ -1,5 +1,5 @@
-import subprocess as sp
 import re
+import subprocess as sp
 
 
 class modudator():
