@@ -22,5 +22,5 @@ The [create_folder.py](Python_Scripts/src/create_folders.py) creates folders in 
 You can call the script by typing in the cmd <code>python create_folders.py [--outputDirectory OUTPUTDIRECTORY] [-num, --numeric]</code>.<br/>
 The "--outputDirectory" argument is necessary because is the path that the new folders will be created.<br/>
 The "--numeric", or "-num" for short, is optional. You can use it in order to create numeric folders.<br/>
-If you want to give custom names to the folders, just ignore it.
+If you want to give custom names to the folders, just ignore it.<br/>
 For help you can type <code>python create_folders.py -h</code>
